@@ -15,12 +15,7 @@ import { GitBranchIcon } from "@/components/icons/git-branch-icon";
 import { DoorOpenIcon } from "@/components/icons/door-open-icon";
 import { GitPullRequestIcon } from "@/components/icons/git-pull-request-icon";
 import RepositoryDialogLoading from "./repository-dialog-loading";
-
-function formatCompactNumber(number: number) {
-  const formatter = Intl.NumberFormat("en", { notation: "compact" });
-  return formatter.format(number);
-}
-
+import { formatCompactNumber } from "@/lib/utils";
 
 export default function RepositoryDialog() {
   const dispatch = useAppDispatch()
