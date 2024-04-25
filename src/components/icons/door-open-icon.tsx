@@ -1,4 +1,6 @@
-export function DoorOpenIcon(props: any) {
+import { SVGProps } from "react";
+
+export function DoorOpenIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}

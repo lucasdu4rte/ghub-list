@@ -1,4 +1,6 @@
-export function GitForkIcon(props: any) {
+import { SVGProps } from "react";
+
+export function GitForkIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}

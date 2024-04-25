@@ -1,4 +1,6 @@
-export function GitPullRequestIcon(props: any) {
+import { SVGProps } from "react";
+
+export function GitPullRequestIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       width="800px"

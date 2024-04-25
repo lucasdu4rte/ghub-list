@@ -1,4 +1,6 @@
-export function GitBranchIcon(props: any) {
+import { SVGProps } from "react";
+
+export function GitBranchIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
