@@ -1,5 +1,5 @@
 "use client";
-import { Repo } from "@/services/githubApi"
+import type { Repo } from "@/@types";
 import { AvatarImage, AvatarFallback, Avatar } from "@/components/ui/avatar"
 import { CardTitle, CardDescription, CardHeader, CardFooter, Card } from "@/components/ui/card"
 import { GitHubLogoIcon } from '@radix-ui/react-icons'
